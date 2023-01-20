@@ -1,0 +1,22 @@
+{
+  "name": "partners-integration-tutorial",
+  "version": "1.0.0",
+  "description": "Express Server for Integrations to cotalker api",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "tsc && node -r dotenv/config dist"
+  },
+  "author": "Eduardo Soto",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "axios": "^1.2.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
